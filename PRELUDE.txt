@@ -242,6 +242,11 @@ accessing the underlying Racket/Scheme function
 (always)
 ("apply") "collect-garbage" nil
 
+(count) number
+comment
+(always)
+(c) number (count) (add1) number
+
 (current-memory-use)
 accessing the underlying Racket/Scheme function
 (always)
