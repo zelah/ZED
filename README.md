@@ -43,7 +43,7 @@ Sure! Here are two function definitions and a very short execution trace:
 
 (abs) number   
 (abs) -5   
-(<) number 0   
+(negative?) number     
 (-) 0 number   
 
 (abs) number   
