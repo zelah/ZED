@@ -280,10 +280,10 @@ accessing the underlying Racket/Scheme function
 (dr) value
 comment
 (always)
-(sequence) (display) (default-output-port) (pr) ("ZEEdr") value
-           (sequence) (newline) (default-output-port)
-           (sequence) (newline) (default-output-port)
-           value 
+(se) (display) (default-output-port) (pr) ("ZEEdr") value
+     (se) (newline) (default-output-port) 
+     (se) (newline) (default-output-port)
+     value 
 
 ("ZEEdr") value
 comment
@@ -298,10 +298,10 @@ value
 (drr) value
 comment
 (always)
-(sequence) (display) (default-output-port) (pr) value
-           (sequence) (newline) (default-output-port)
-           (sequence) (newline) (default-output-port)
-           value
+(se) (display) (default-output-port) (pr) value
+     (se) (newline) (default-output-port)
+     (se) (newline) (default-output-port)
+     value
 
 (end-of-file-object)
 accessing the underlying Racket/Scheme function
@@ -405,12 +405,12 @@ accessing the underlying Racket/Scheme function
 (gr) garbage value
 comment
 (always)
-(sequence) (dr) garbage value
+(se) (dr) garbage value
 
 (grr) garbage value
 comment
 (always)
-(sequence) (drr) garbage value
+(se) (drr) garbage value
 
 (last) list
 comment
@@ -697,7 +697,7 @@ comment
 ("ZEEread-bytes") port byte
 comment
 (end-of-file-object?) byte
-(sequence) (close-input-port) port nil
+(se) (close-input-port) port nil
 
 ("ZEEread-bytes") port byte
 comment
@@ -958,8 +958,8 @@ comment
 (write-bytes) port list
 comment
 (always)
-(sequence) (write-byte) port (1) list
-           (write-bytes) port (!) list
+(se) (write-byte) port (1) list
+     (write-bytes) port (!) list
 
 (xor) bit1 bit2
 comment
