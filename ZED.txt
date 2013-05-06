@@ -556,7 +556,7 @@ comment: program plus primitives
                 ("cons") "'ZEDnine5" 9
                 ("cons") "'ZEDten1" 10
                 ("cons") "'ZEDten2" 10
-              ("wrap8")
+              ("wrap12")
                 ("cons") "'ZEDten3" 10
                 ("cons") "'ZEDten4" 10
                 ("cons") "'ZEDten5" 10
@@ -564,6 +564,10 @@ comment: program plus primitives
                 ("cons") "'make-hasheq" 1
                 ("cons") "'hash-ref" 2
                 ("cons") "'apply1" 4
+                ("cons") "'apply2" 6
+                ("cons") "'apply3" 8
+                ("cons") "'apply4" 10
+                ("cons") "'apply5" 12
                 ("cons") "'filter" 2
 
 ("arity") "function" "arity-hash"
@@ -591,7 +595,7 @@ comment: new primitives
              ("quote") ("define") "wrap13" "list"
              ("quote") ("define") "wrap14" "list"
              ("quote") ("define") "wrap15" "list"
-           ("wrap12")
+           ("wrap16")
              ("quote") ("define") "wrap16" "list"
              ("wrap3")
                 "'define-syntax"
@@ -655,6 +659,42 @@ comment: new primitives
                   ("wrap2")
                     ("wrap5") "'_" "'a" "'b" "'c" "'d"
                     ("wrap5") "'apply" "'a" "'b" "'c" "'d"
+             ("wrap3")
+                "'define-syntax"
+                "'apply2"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap7") "'_" "'a" "'b" "'c" "'d" "'e" "'f"
+                    ("wrap7") "'apply" "'a" "'b" "'c" "'d" "'e" "'f"
+             ("wrap3")
+                "'define-syntax"
+                "'apply3"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap9") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h"
+                    ("wrap9") "'apply" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h"
+             ("wrap3")
+                "'define-syntax"
+                "'apply4"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap11") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j"
+                    ("wrap11") "'apply" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j"
+             ("wrap3")
+                "'define-syntax"
+                "'apply5"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap13") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
+                    ("wrap13") "'apply" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
 
 ("application?") "expression"
 '((+) 1 2)
