@@ -556,7 +556,7 @@ comment: program plus primitives
                 ("cons") "'ZEDnine5" 9
                 ("cons") "'ZEDten1" 10
                 ("cons") "'ZEDten2" 10
-              ("wrap12")
+              ("append") ("wrap16")
                 ("cons") "'ZEDten3" 10
                 ("cons") "'ZEDten4" 10
                 ("cons") "'ZEDten5" 10
@@ -569,6 +569,13 @@ comment: program plus primitives
                 ("cons") "'apply4" 10
                 ("cons") "'apply5" 12
                 ("cons") "'filter" 2
+                ("cons") "'ZEDzero" 0
+                ("cons") "'ZEDzero1" 0
+                ("cons") "'ZEDzero2" 0
+                ("cons") "'ZEDzero3" 0
+              ("wrap2")
+                ("cons") "'ZEDzero4" 0
+                ("cons") "'ZEDzero5" 0
 
 ("arity") "function" "arity-hash"
 'ZED= '((ZED* . 2) (ZED= . 2))
