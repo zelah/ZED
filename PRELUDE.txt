@@ -911,7 +911,7 @@ comment
 ("apply1") "open-output-file"
            ("wrap") output-file
            "#:exists"
-           "'replace"                           
+           "'replace"                          
 
 (reverse) list
 comment

@@ -97,17 +97,17 @@ nil
 ("wrap2") #@ #:
 
 ("symbol-character") "character"
-#\newline 
+#\newline
 (=) "character" #newline
 ("wrap2") #@ #<
 
 ("symbol-character") "character"
-#\vtab 
+#\vtab
 (=) "character" #vtab
 ("wrap2") #@ #=
 
 ("symbol-character") "character"
-#\page 
+#\page
 (=) "character" #page
 ("wrap2") #@ #>
 
@@ -127,12 +127,12 @@ nil
 ("wrap2") #@ #B
 
 ("symbol-character") "character"
-#\u0010 
+#\u0010
 (=) "character" #010
 ("wrap2") #@ #C
 
 ("symbol-character") "character"
-#\u0011 
+#\u0011
 (=) "character" #011
 ("wrap2") #@ #D
 
@@ -142,17 +142,17 @@ nil
 ("wrap2") #@ #E
 
 ("symbol-character") "character"
-#\u0013 
+#\u0013
 (=) "character" #013
 ("wrap2") #@ #F
 
 ("symbol-character") "character"
-#\u0014 
+#\u0014
 (=) "character" #014
 ("wrap2") #@ #G
 
 ("symbol-character") "character"
-#\u0015 
+#\u0015
 (=) "character" #015
 ("wrap2") #@ #H
 
@@ -162,27 +162,27 @@ nil
 ("wrap2") #@ #I
 
 ("symbol-character") "character"
-#\u0017 
+#\u0017
 (=) "character" #017
 ("wrap2") #@ #J
 
 ("symbol-character") "character"
-#\u0018 
+#\u0018
 (=) "character" #018
 ("wrap2") #@ #K
 
 ("symbol-character") "character"
-#\u0019 
+#\u0019
 (=) "character" #019
 ("wrap2") #@ #L
 
 ("symbol-character") "character"
-#\u001A 
+#\u001A
 (=) "character" #01A
 ("wrap2") #@ #M
 
 ("symbol-character") "character"
-#\u001B 
+#\u001B
 (=) "character" #01B
 ("wrap2") #@ #N
 
@@ -192,12 +192,12 @@ nil
 ("wrap2") #@ #O
 
 ("symbol-character") "character"
-#\u001D 
+#\u001D
 (=) "character" #01D
 ("wrap2") #@ #P
 
 ("symbol-character") "character"
-#\u001E 
+#\u001E
 (=) "character" #01E
 ("wrap2") #@ #Q
 
@@ -207,22 +207,22 @@ nil
 ("wrap2") #@ #R
 
 ("symbol-character") "character"
-#\space 
+#\space
 (=) "character" #space
 ("wrap2") #@ #S
 
 ("symbol-character") "character"
-#\@ 
+#\@
 (=) "character" #@
 ("wrap2") #@ #@
 
 ("symbol-character") "character"
-#\" 
+#\"
 (=) "character" #"
 ("wrap2") #@ #T
 
 ("symbol-character") "character"
-#\' 
+#\'
 (=) "character" #'
 ("wrap2") #@ #U
 
@@ -232,7 +232,7 @@ nil
 ("wrap2") #@ #V
 
 ("symbol-character") "character"
-#\) 
+#\)
 (=) "character" #)
 ("wrap2") #@ #W
 
@@ -242,12 +242,12 @@ nil
 ("wrap2") #@ #X
 
 ("symbol-character") "character"
-#\; 
+#\;
 (=) "character" #;
 ("wrap2") #@ #Y
 
 ("symbol-character") "character"
-#\[ 
+#\[
 (=) "character" #[
 ("wrap2") #@ #Z
 
@@ -257,42 +257,42 @@ nil
 ("wrap2") #@ #^
 
 ("symbol-character") "character"
-#\] 
+#\]
 (=) "character" #]
 ("wrap2") #@ #_
 
 ("symbol-character") "character"
-#\` 
+#\`
 (=) "character" #`
 ("wrap2") #@ #a
 
 ("symbol-character") "character"
-#\{ 
+#\{
 (=) "character" #{
 ("wrap2") #@ #b
 
 ("symbol-character") "character"
-#\| 
+#\|
 (=) "character" #|
 ("wrap2") #@ #c
 
 ("symbol-character") "character"
-#\} 
+#\}
 (=) "character" #}
 ("wrap2") #@ #d
 
 ("symbol-character") "character"
-#\rubout 
+#\rubout
 (=) "character" #rubout
 ("wrap2") #@ #e
 
 ("symbol-character") "character"
-#\u009F 
+#\u009F
 ("not") ("char-graphic?") "character"
 ("wrap2") #@ #f
 
 ("symbol-character") "character"
-#\Z 
+#\Z
 ("char-graphic?") "character"
 "character"
 
@@ -522,7 +522,7 @@ comment: program plus primitives
                 ("cons") "'ZEDthree3" 3
                 ("cons") "'ZEDthree4" 3
                 ("cons") "'ZEDthree5" 3
-              ("append") ("wrap16")  
+              ("append") ("wrap16") 
                 ("cons") "'ZEDfour1" 4
                 ("cons") "'ZEDfour2" 4
                 ("cons") "'ZEDfour3" 4
@@ -556,7 +556,7 @@ comment: program plus primitives
                 ("cons") "'ZEDnine5" 9
                 ("cons") "'ZEDten1" 10
                 ("cons") "'ZEDten2" 10
-              ("append") ("wrap16")
+              ("wrap12")
                 ("cons") "'ZEDten3" 10
                 ("cons") "'ZEDten4" 10
                 ("cons") "'ZEDten5" 10
@@ -569,13 +569,6 @@ comment: program plus primitives
                 ("cons") "'apply4" 10
                 ("cons") "'apply5" 12
                 ("cons") "'filter" 2
-                ("cons") "'ZEDzero" 0
-                ("cons") "'ZEDzero1" 0
-                ("cons") "'ZEDzero2" 0
-                ("cons") "'ZEDzero3" 0
-              ("wrap2")
-                ("cons") "'ZEDzero4" 0
-                ("cons") "'ZEDzero5" 0
 
 ("arity") "function" "arity-hash"
 'ZED= '((ZED* . 2) (ZED= . 2))
@@ -731,7 +724,7 @@ nil
         ("pair?") ("cadr") "expression"
 
 ("schemefy1") "expression" "arity-hash"
-'(1 2 3) ((+ . 2)) 
+'(1 2 3) ((+ . 2))
 ("not") ("application?") "expression"
 ("car") "expression"
 
@@ -925,7 +918,7 @@ nil
                               ("cddr") "list"
 
 ("flexify1") "list"
-'(#\# #\t #\r #\u #\e) 
+'(#\# #\t #\r #\u #\e)
 ("or") ("equal?") "list" ("wrap5") ## #t #r #u #e
        ("equal?") "list" ("wrap6") ## #f #a #l #s #e
 ("string->symbol") ("list->string") "list"
@@ -952,7 +945,7 @@ comment: termination condition
 nil
 
 ("read-all1") "port" "character"
-comment: save the character and read more 
+comment: save the character and read more
 ("not") ("eof-object?") "character"
 ("cons") "character" ("read-all!") "port"
 
@@ -979,7 +972,7 @@ nil
 ("cons") #newline ("newline-space1") ("cdr") "program"
 
 ("newline-space1") "program"
-'(#\Z #\newline #newline #\space) 
+'(#\Z #\newline #newline #\space)
 ("not") (=) #newline ("car") "program"
 ("cons") ("car") "program" ("newline-space1") ("cdr") "program"
 
@@ -1029,17 +1022,17 @@ nil
 ("repeats") ("cdr") "program"
 
 ("repeats") "program"
-'(#\tab #\Z) 
+'(#\tab #\Z)
 (always)
 ("cons") ("car") "program" ("repeats") ("cdr") "program"
 
 ("space-tab") "program"
-nil 
+nil
 ("null?") "program"
 nil
 
 ("space-tab") "program"
-'(#\tab #\Z #\space) 
+'(#\tab #\Z #\space)
 (=) #tab ("car") "program"
 ("cons") #space ("space-tab") ("cdr") "program"
 
@@ -1049,17 +1042,17 @@ nil
 ("cons") ("car") "program" ("space-tab") ("cdr") "program"
 
 ("space-newline") "program"
-nil 
+nil
 ("null?") "program"
 nil
 
 ("space-newline") "program"
-'(#\newline) 
+'(#\newline)
 ("null?") ("cdr") "program"
 "program"
 
 ("space-newline") "program"
-'(#\space #\newline #\Z) 
+'(#\space #\newline #\Z)
 ("and") (=) #space ("car") "program"
         (=) #newline ("cadr") "program"
 ("space-newline") ("cdr") "program"
@@ -1075,7 +1068,7 @@ nil
 nil
 
 ("leading") "program"
-'(#\newline #\Z) 
+'(#\newline #\Z)
 (=) #newline ("car") "program"
 ("cdr") "program"
 
@@ -1121,7 +1114,7 @@ nil
                            ("discard") ("cddddr") "program"
 
 ("read-sentence") "sentence"
-nil 
+nil
 ("null?") "sentence"
 nil
 
@@ -1142,7 +1135,7 @@ nil
                   "sentence"
 
 ("read-sentence") "sentence"
-'(#\n #\u #\m #\b #\e #\r) 
+'(#\n #\u #\m #\b #\e #\r)
 (always)
 ("cons") ("noun") ("list->string") ("gather-noun") "sentence"
          ("read-sentence")
@@ -1165,7 +1158,7 @@ nil
 ("string->symbol") ("list->string") "gather-verb"
 
 ("noun") "string"
-".5" 
+".5"
 (always)
 ("noun-number") "string" ("string->number") "string"
 
@@ -1180,7 +1173,7 @@ nil
 "number"
 
 ("noun-number1") "noun" "number"
-"\"square\"" #false 
+"\"square\"" #false
 ("and") (=) #" ("car") ("string->list") "noun"
         (=) #" ("car") ("reverse") ("string->list") "noun"
 ("list->string")
@@ -1231,7 +1224,7 @@ nil
 nil
 
 ("by-three") "program"
-'(1 2 3 4 5 6 7 8 9) 
+'(1 2 3 4 5 6 7 8 9)
 (always)
 ("cons")
   ("wrap3")
