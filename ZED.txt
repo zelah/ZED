@@ -1269,7 +1269,7 @@ comment: ensure file can be written
 (not-return?) character
 #Z
 (always)
-(not) (=) #return character
+("not") (=) #return character
 
 ("my-compile1") "ZED" "PRELUDE" "RACKET"
 comment: generate combined
