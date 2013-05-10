@@ -388,20 +388,20 @@ accessing the underlying Racket/Scheme function
 (always)
 ("apply") "exact->inexact" ("wrap") number
 
-(fi) one list
+(fi) function list
 comment
 (null?) list
 nil
 
-(fi) one list
+(fi) function list
 comment
-(one) (1) list
-(c) (1) list (fi) one (!) list
+(one) function (1) list
+(c) (1) list (fi) function (!) list
 
-(fi) one list
+(fi) function list
 comment
 (always)
-(fi) one (!) list
+(fi) function (!) list
 
 (file-exists?) file
 accessing the underlying Racket/Scheme function
@@ -578,15 +578,15 @@ accessing the underlying Racket/Scheme function
 (always)
 ("apply") "make-pseudo-random-generator" nil
 
-(many) one count value
+(many) function count value
 core 0 [1 1 2 4 ...]
 (<) count 1
 value
 
-(many) one count value
+(many) function count value
 core 22 [1 2 5 2 ...]
 (always)
-(many) one (sub1) count (one) value
+(many) function (sub1) count (one) function value
 
 (maximum) number1 number2
 comment
@@ -623,21 +623,21 @@ comment
 (always)
 ("apply") "modulo" ("wrap2") large small
 
-(mp) one list
+(mp) function list
 comment
 (null?) list
 nil
 
-(mp) one list
+(mp) function list
 comment
 (pair?) list
-(c) (one) (1) list
-    (mp) one (!) list
+(c) (one) function (1) list
+    (mp) function (!) list
 
-(mp) one list
+(mp) function list
 comment
 (always)
-(one) list
+(one) function list
 
 (multiple?) small large
 comment
@@ -815,25 +815,25 @@ comment
 (always)
 (c) byte (ZEDread-bytes) port
 
-(reduce) final two list
+(reduce) final function list
 comment
 (null?) list
 final
 
-(reduce) final two list
+(reduce) final function list
 comment
 (always)
-(ZEDreduce) final two (!) list (1) list
+(ZEDreduce) final function (!) list (1) list
 
-(ZEDreduce) final two list accumulator
+(ZEDreduce) final function list accumulator
 comment
 (null?) list
-(two) accumulator final
+(two) function accumulator final
 
-(ZEDreduce) final two list accumulator
+(ZEDreduce) final function list accumulator
 comment
 (always)
-(ZEDreduce) final two (!) list (two) accumulator (1) list
+(ZEDreduce) final function (!) list (two) function accumulator (1) list
 
 (reduce-append) list
 comment
