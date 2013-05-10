@@ -316,28 +316,28 @@ nil
 (always)
 ("cddr") "clause"
 
-("clause-name-agree") "one" "two"
+("clause-name-agree") "a" "b"
 ;;;'(abs (number) ((=) number 0) (0))
    '(abs (number) ((>) number 0) (number))
-("eq?") ("clause-name") "one"
-        ("clause-name") "two"
-("clause-name") "one"
+("eq?") ("clause-name") "a"
+        ("clause-name") "b"
+("clause-name") "a"
 
-("clause-arguments-agree") "one" "two"
+("clause-arguments-agree") "a" "b"
 ;;;'(abs (number) ((=) number 0) (0))
    '(abs (number) ((>) number 0) (number))
-("equal?") ("clause-arguments") "one"
-           ("clause-arguments") "two"
-("clause-arguments") "one"
+("equal?") ("clause-arguments") "a"
+           ("clause-arguments") "b"
+("clause-arguments") "a"
 
-("combine-clauses") "one" "two"
+("combine-clauses") "a" "b"
 ;;;'(abs (number) ((=) number 0) (0))
    '(abs (number) ((>) number 0) (number))
 (always)
-("cons") ("clause-name-agree") "one" "two"
-         ("cons") ("clause-arguments-agree") "one" "two"
-                  ("append") ("clause-body") "one"
-                             ("clause-body") "two"
+("cons") ("clause-name-agree") "a" "b"
+         ("cons") ("clause-arguments-agree") "a" "b"
+                  ("append") ("clause-body") "a"
+                             ("clause-body") "b"
 
 ("combine-head-clauses") "program"
 ;;;'((abs (number) ((=) number 0) (0))
@@ -485,17 +485,17 @@ comment: program plus primitives
                 ("cons") "'ZED1" 1
                 ("cons") "'ZED!" 1
                 ("cons") "'ZEDc" 2
-                ("cons") "'ZEDone" 1
-                ("cons") "'ZEDtwo" 2
-                ("cons") "'ZEDthree" 3
+                ("cons") "'ZEDone" 2
+                ("cons") "'ZEDtwo" 3
+                ("cons") "'ZEDthree" 4
               ("append") ("wrap16")
-                ("cons") "'ZEDfour" 4
-                ("cons") "'ZEDfive" 5
-                ("cons") "'ZEDsix" 6
-                ("cons") "'ZEDseven" 7
-                ("cons") "'ZEDeight" 8
-                ("cons") "'ZEDnine" 9
-                ("cons") "'ZEDten" 10
+                ("cons") "'ZEDfour" 5
+                ("cons") "'ZEDfive" 6
+                ("cons") "'ZEDsix" 7
+                ("cons") "'ZEDseven" 8
+                ("cons") "'ZEDeight" 9
+                ("cons") "'ZEDnine" 10
+                ("cons") "'ZEDten" 11
                 ("cons") "'force" 1
                 ("cons") "'ZED=" 2
                 ("cons") "'caar" 1
@@ -507,59 +507,29 @@ comment: program plus primitives
                 ("cons") "'ZEDand" 2
               ("append") ("wrap16")
                 ("cons") "'ZEDor" 2
-                ("cons") "'ZEDone1" 1
-                ("cons") "'ZEDone2" 1
-                ("cons") "'ZEDone3" 1
-                ("cons") "'ZEDone4" 1
-                ("cons") "'ZEDone5" 1
-                ("cons") "'ZEDtwo1" 2
-                ("cons") "'ZEDtwo2" 2
-                ("cons") "'ZEDtwo3" 2
-                ("cons") "'ZEDtwo4" 2
-                ("cons") "'ZEDtwo5" 2
-                ("cons") "'ZEDthree1" 3
-                ("cons") "'ZEDthree2" 3
-                ("cons") "'ZEDthree3" 3
-                ("cons") "'ZEDthree4" 3
-                ("cons") "'ZEDthree5" 3
+                ("cons") "'ZEDeleven" 12
+                ("cons") "'ZEDtwelve" 13
+                ("cons") "'ZEDthirteen" 14
+                ("cons") "'ZEDfourteen" 15
+                ("cons") "'ZEDfifteen" 16
+                ("cons") "'ZEDsixteen" 17
+                ("cons") "'ZEDseventeen" 18
+                ("cons") "'ZEDeighteen" 19
+                ("cons") "'ZEDnineteen" 20
+                ("cons") "'ZEDtwenty" 21
+                ("cons") "'ZEDtwenty-one" 22
+                ("cons") "'ZEDtwenty-two" 23
+                ("cons") "'ZEDtwenty-three" 24
+                ("cons") "'ZEDtwenty-four" 25
+                ("cons") "'ZEDtwenty-five" 26
               ("append") ("wrap16") 
-                ("cons") "'ZEDfour1" 4
-                ("cons") "'ZEDfour2" 4
-                ("cons") "'ZEDfour3" 4
-                ("cons") "'ZEDfour4" 4
-                ("cons") "'ZEDfour5" 4
-                ("cons") "'ZEDfive1" 5
-                ("cons") "'ZEDfive2" 5
-                ("cons") "'ZEDfive3" 5
-                ("cons") "'ZEDfive4" 5
-                ("cons") "'ZEDfive5" 5
-                ("cons") "'ZEDsix1" 6
-                ("cons") "'ZEDsix2" 6
-                ("cons") "'ZEDsix3" 6
-                ("cons") "'ZEDsix4" 6
-                ("cons") "'ZEDsix5" 6
-                ("cons") "'ZEDseven1" 7
-              ("append") ("wrap16")
-                ("cons") "'ZEDseven2" 7
-                ("cons") "'ZEDseven3" 7
-                ("cons") "'ZEDseven4" 7
-                ("cons") "'ZEDseven5" 7
-                ("cons") "'ZEDeight1" 8
-                ("cons") "'ZEDeight2" 8
-                ("cons") "'ZEDeight3" 8
-                ("cons") "'ZEDeight4" 8
-                ("cons") "'ZEDeight5" 8
-                ("cons") "'ZEDnine1" 9
-                ("cons") "'ZEDnine2" 9
-                ("cons") "'ZEDnine3" 9
-                ("cons") "'ZEDnine4" 9
-                ("cons") "'ZEDnine5" 9
-                ("cons") "'ZEDten1" 10
-                ("cons") "'ZEDten2" 10
-              ("wrap12")
-                ("cons") "'ZEDten3" 10
-                ("cons") "'ZEDten4" 10
-                ("cons") "'ZEDten5" 10
+                ("cons") "'ZEDtwenty-six" 27
+                ("cons") "'ZEDtwenty-seven" 28
+                ("cons") "'ZEDtwenty-eight" 29
+                ("cons") "'ZEDtwenty-nine" 30
+                ("cons") "'ZEDthirty" 31
+                ("cons") "'ZEDthirty-one" 32
+                ("cons") "'ZEDthirty-two" 33
                 ("cons") "'get-file" 0
                 ("cons") "'make-hasheq" 1
                 ("cons") "'hash-ref" 2
@@ -569,6 +539,8 @@ comment: program plus primitives
                 ("cons") "'apply4" 10
                 ("cons") "'apply5" 12
                 ("cons") "'filter" 2
+              ("wrap")
+                ("cons") "'ZEDzero" 1
 
 ("arity") "function" "arity-hash"
 'ZED= '((ZED* . 2) (ZED= . 2))
@@ -595,7 +567,7 @@ comment: new primitives
              ("quote") ("define") "wrap13" "list"
              ("quote") ("define") "wrap14" "list"
              ("quote") ("define") "wrap15" "list"
-           ("wrap16")
+           ("append") ("wrap16")
              ("quote") ("define") "wrap16" "list"
              ("wrap3")
                 "'define-syntax"
@@ -695,6 +667,25 @@ comment: new primitives
                   ("wrap2")
                     ("wrap13") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
                     ("wrap13") "'apply" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
+           ("wrap2") 
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDone"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap3") "'_" "'a" "'b"
+                    ("wrap2") "'a" "'b"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwo"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap4") "'_" "'a" "'b" "'c"
+                    ("wrap3") "'a" "'b" "'c"
 
 ("application?") "expression"
 '((+) 1 2)
@@ -794,16 +785,16 @@ nil
                     ("cdr") "expression"
                     "arity-hash"
 
-("map-with") two "list" "extra"
+("map-with") "function" "list" "extra"
 + nil 1
 ("null?") "list"
 nil
 
-("map-with") two "list" "extra"
+("map-with") "function" "list" "extra"
 + '(1 3 5 7) 1
 ("not") ("null?") "list"
-("cons") (two) ("car") "list" "extra"
-         ("map-with") two ("cdr") "list" "extra"
+("cons") (two) "function" ("car") "list" "extra"
+         ("map-with") "function" ("cdr") "list" "extra"
 
 ("functionize") "function" "arity-hash"
 ;;;'(abs (number) ((<) number 0)
