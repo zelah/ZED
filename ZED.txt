@@ -667,7 +667,7 @@ comment: new primitives
                   ("wrap2")
                     ("wrap13") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
                     ("wrap13") "'apply" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
-           ("wrap2") 
+           ("append") ("wrap16") 
              ("wrap3")
                 "'define-syntax"
                 "'ZEDone"
@@ -686,6 +686,421 @@ comment: new primitives
                   ("wrap2")
                     ("wrap4") "'_" "'a" "'b" "'c"
                     ("wrap3") "'a" "'b" "'c"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDthree"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap5") "'_" "'a" "'b" "'c" "'d"
+                    ("wrap4") "'a" "'b" "'c" "'d"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDfour"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap6") "'_" "'a" "'b" "'c" "'d" "'e"
+                    ("wrap5") "'a" "'b" "'c" "'d" "'e"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDfive"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap7") "'_" "'a" "'b" "'c" "'d" "'e" "'f"
+                    ("wrap6") "'a" "'b" "'c" "'d" "'e" "'f"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDsix"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap8") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g"
+                    ("wrap7") "'a" "'b" "'c" "'d" "'e" "'f" "'g"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDseven"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap9") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h"
+                    ("wrap8") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDeight"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap10") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i"
+                    ("wrap9") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDnine"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap11") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j"
+                    ("wrap10") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDten"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap12") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k"
+                    ("wrap11") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDeleven"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap13") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
+                    ("wrap12") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwelve"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap14") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m"
+                    ("wrap13") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDthirteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap15") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n"
+                    ("wrap14") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDfourteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap16") "'_" "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o"
+                    ("wrap15") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDfifteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap") "'_"
+                    ("wrap16") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p"
+                    ("wrap16") "'a" "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDsixteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("append")
+                    ("wrap") "'a"
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+           ("append") ("wrap16")
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDseventeen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap") "'r"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap") "'r"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDeighteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap2") "'r" "'s"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap2") "'r" "'s"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDnineteen"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap3") "'r" "'s" "'t"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap3") "'r" "'s" "'t"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap4") "'r" "'s" "'t" "'u"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap4") "'r" "'s" "'t" "'u"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-one"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap5") "'r" "'s" "'t" "'u" "'v"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap5") "'r" "'s" "'t" "'u" "'v"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-two"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap6") "'r" "'s" "'t" "'u" "'v" "'w"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap6") "'r" "'s" "'t" "'u" "'v" "'w"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-three"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap7") "'r" "'s" "'t" "'u" "'v" "'w" "'x"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap7") "'r" "'s" "'t" "'u" "'v" "'w" "'x"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-four"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap8") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap8") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-five"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap9") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap9") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-six"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap10") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap10") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-seven"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap11") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap11") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-eight"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap12") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap12") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDtwenty-nine"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap13") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap13") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDthirty"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap14") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap14") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDthirty-one"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap15") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae" "'af"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap15") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae" "'af"
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDthirty-two"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("append")
+                    ("wrap2") "'_" "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap16") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae" "'af" "'ag"
+                    ("append")
+                    ("wrap") "'a"
+                    ("append")
+                    ("wrap16") "'b" "'c" "'d" "'e" "'f" "'g" "'h" "'i" "'j" "'k" "'l" "'m" "'n" "'o" "'p" "'q"
+                    ("wrap16") "'r" "'s" "'t" "'u" "'v" "'w" "'x" "'y" "'z" "'aa" "'ab" "'ac" "'ad" "'ae" "'af" "'ag"
+           ("wrap")
+             ("wrap3")
+                "'define-syntax"
+                "'ZEDzero"
+                ("wrap3")
+                  "'syntax-rules"
+                  nil
+                  ("wrap2")
+                    ("wrap2") "'_" "'a"
+                    ("wrap") "'a"
 
 ("application?") "expression"
 '((+) 1 2)
